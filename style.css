@@ -1,0 +1,18 @@
+body {
+    background-color: #ffd4857a;
+}
+
+.box {
+    background-color: #ffd485b2;
+    border-radius: 13px;
+    animation: pulse 400ms;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
